@@ -1,0 +1,274 @@
+#particles-js {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.fullBody {
+  background-image: radial-gradient(#0077b6, #2c394b);
+  padding-bottom: 30px;
+}
+/* Navbar */
+.navbar-nav {
+  margin-left: auto;
+}
+.nav-link {
+  font-size: 1.2rem;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.navbar-brand {
+  margin-left: 20px;
+  font-size: 2rem !important;
+  opacity: 60%;
+}
+/* Information */
+#info {
+  text-align: center;
+  color: #fff;
+}
+.title-image {
+  width: 250px;
+  position: relative;
+}
+h4 {
+  padding-top: 25px;
+}
+.mail {
+  padding-top: 3.5px;
+}
+.mail a {
+  text-decoration: none;
+  color: #fff;
+}
+.adress {
+  margin-top: 7px;
+}
+
+.replit{
+  width: 33px;
+}
+.replit:hover{
+  opacity: 60%;
+}
+
+.title-logo {
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  position: relative;
+}
+.logo {
+  color: inherit;
+  color: #fff;
+}
+.logo:hover {
+  opacity: 60%;
+}
+.mail {
+  color: inherit;
+  text-decoration: none;
+}
+/* Summary */
+#summary {
+  text-align: left;
+  color: #fff;
+  margin-left: 26%;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.summary {
+  width: 70%;
+}
+.hr {
+  height: 4px;
+  color: #fff;
+  width: 53%;
+  margin-left: 25%;
+}
+/* Resume */
+#resume {
+  text-align: left;
+  color: #fff;
+  margin-left: 26%;
+}
+.view {
+  color: #fff;
+  color: inherit;
+  position: relative;
+  text-decoration: none;
+}
+
+.view:hover{
+  color: #fff;
+  opacity: 60%;
+}
+
+#education {
+  text-align: left;
+  color: #fff;
+  margin-left: 26%;
+}
+.education-details {
+  font-size: 1.2rem;
+  width: 70%;
+}
+.btech-passing {
+  margin-left: 15px;
+}
+#certification {
+  text-align: left;
+  color: #fff;
+  margin-left: 26%;
+}
+#skills {
+  text-align: left;
+  color: #fff;
+  margin-left: 26%;
+  padding-bottom: 10px;
+  /* width: 50%; */
+  line-height: 3%;
+}
+.skills {
+  padding-bottom: 10px;
+}
+.bottom-skills {
+  margin-top: 2%;
+}
+.btn {
+  margin-right: 10px;
+}
+/* Software Proficiency */
+#software {
+  text-align: left;
+  color: #fff;
+  margin-left: 26%;
+  padding-bottom: 15px;
+}
+.all-softwares {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.software-proficiency {
+  padding-bottom: 20px;
+}
+.software-logo {
+  padding-top: 2px;
+  width: 30px;
+  height: 35px;
+  /* display: inline; */
+}
+.software-name {
+  /* display: inline; */
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.softwares {
+  /* display: inline; */
+  /* padding-right: 15px; */
+  position: relative;
+  padding: 3%;
+  display: flex;
+}
+.threeds-max {
+  display: flex;
+  width: 130px;
+  height: 50px;
+}
+.z-brush {
+  display: flex;
+  width: 120px;
+  height: 50px;
+}
+.substance-designer {
+  display: flex;
+  width: 205px;
+  height: 50px;
+}
+.photoshop {
+  display: flex;
+  width: 140px;
+  height: 50px;
+}
+.spark-ar {
+  display: flex;
+  width: 130px;
+  height: 50px;
+}
+.unreal-engine {
+  display: flex;
+  width: 170px;
+}
+.unity-engine {
+  display: flex;
+  width: 100px;
+}
+.hr1 {
+  margin-top: 30px;
+  color: #fff;
+  border: 2px solid;
+  width: 40%;
+  margin-left: 30%;
+}
+.hr2 {
+  color: #fff;
+  border: 1.5px solid;
+  width: 32%;
+  margin-left: 34%;
+  margin-top: -5px;
+}
+.hr3 {
+  color: #fff;
+  border: 1px solid;
+  width: 26%;
+  margin-left: 37%;
+  margin-top: -5px;
+}
+
+@media (max-width: 1060px) {
+  .fullBody {
+    text-align: center;
+  }
+  #summary {
+    text-align: center;
+    width: 100%;
+    margin-left: 15%;
+    letter-spacing: 1px;
+  }
+  .summary {
+    margin-right: 30%;
+  }
+  .resume-pdf {
+    margin-left: 15%;
+  }
+  #resume {
+    margin-right: 26%;
+    text-align: center;
+  }
+  .education-details {
+    margin-left: -17%;
+    width: 100%;
+  }
+  #skills {
+    margin-left: 3%;
+    text-align: center;
+  }
+  .software-proficiency {
+    margin-left: 0%;
+  }
+  .all-softwares {
+    margin-right: 10%;
+  }
+}
+@media (max-width: 670px) {
+  .modeling {
+    margin-top: 2%;
+  }
+}
+@media (max-width: 580px) {
+  .game-developer {
+    margin-top: 2%;
+  }
+}
