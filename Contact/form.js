@@ -3,7 +3,7 @@ function validate() {
   // var subject = document.getElementById("subject").value;
   var phone = document.getElementById("phone").value;
   var email = document.getElementById("email").value;
-  // var message = document.getElementById("message").value;
+  var message = document.getElementById("message").value;
   var error_message = document.getElementById("error_message");
 
   error_message.style.padding = "10px";
@@ -34,6 +34,20 @@ function validate() {
   //   error_message.innerHTML = text;
   //   return false;
   // }
+
+  var request = new XMLHttpRequest();
+  request.open("POST", "https://hook.integromat.com/9eihytj3ukms4xt7i3ibmhht32r6vsr5");
+  request.setRequestHeader('Content-type', 'application/json');
+
+  var params = {
+    name,
+    phone,
+    email,
+    message
+}
+
+  request.send(JSON.stringify(params));
+
   alert("Form Submitted Successfully!");
   return true;
 }
